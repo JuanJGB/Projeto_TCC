@@ -38,8 +38,8 @@
     </label>
 </form>
 
-
 <h6 id="copy">Todos os direitos reservados &copy;</h6>
+
 </body>
 
 </html>
