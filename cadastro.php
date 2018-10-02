@@ -1,11 +1,6 @@
-<?php
-include_once 'conexao.php';
-
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
     <script type="text/javascript" src="javascript/funcionamento.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
