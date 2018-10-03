@@ -10,5 +10,4 @@ if (empty($_POST['InNomeGer']) or empty($_POST['InUser']) or  empty($_POST['InSe
     $senha = $_POST['InSenha'];
 
     echo 'Cadastrado com sucesso!';
-
 }
