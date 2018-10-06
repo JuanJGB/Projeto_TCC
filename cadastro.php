@@ -1,6 +1,11 @@
+<?php
+include_once 'conexao.php';
+include_once 'cadastro.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <script type="text/javascript" src="javascript/funcionamento.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
@@ -12,7 +17,7 @@
 
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="index1.php">Home</a></li>
             <li><a href="sobre.php">Sobre</a></li>
             <li><a href="">Cadastro</a></li>
             <li><a href="operacoes.php">Operações</a></li>
@@ -38,10 +43,11 @@
     </label>
 </form>
 
-<h6 id="copy">Todos os direitos reservados &copy;</h6>
 
+<h6 id="copy">Todos os direitos reservados &copy;</h6>
 </body>
 
 </html>
+
 
 
