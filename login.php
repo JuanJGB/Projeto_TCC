@@ -1,3 +1,6 @@
+<?php
+require_once "login.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -28,17 +31,17 @@
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login</div>
         <div class="card-body">
-          <form>
+          <form method="post" action="valida_login.php">
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+                <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
                 <label for="inputEmail">Email</label>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                <label for="inputPassword">Password</label>
+                <input type="password" name="Password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                <label for="inputPassword">Senha</label>
               </div>
             </div>
             <div class="form-group">
@@ -49,7 +52,7 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="index.php">Login</a>
+            <input class="btn btn-primary btn-block" type="submit" value="Login">
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="register.php">Register an Account</a>
