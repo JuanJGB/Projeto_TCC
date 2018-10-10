@@ -1,6 +1,6 @@
 <?php
 $servername = '127.0.0.1';
-$database = 'projetotcc__oort';
+$database = 'projetotcc_oort';
 $username = 'root';
 
 $password = '';

@@ -46,10 +46,10 @@
             <i class="fas fa-user-circle fa-fw"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">Settings</a>
-            <a class="dropdown-item" href="#">Activity Log</a>
+            <a class="dropdown-item" href="#">Configurações</a>
+            <a class="dropdown-item" href="#">Registro de Atividade</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Sair</a>
           </div>
         </li>
       </ul>
@@ -88,7 +88,7 @@
           <!-- Page Content -->
           <h1>Index Page</h1>
           <hr>
-          <p>This is a great starting point for new custom pages.</p>
+          <p>Este é um excelente ponto de partida para novas páginas personalizadas.</p>
 
         </div>
         <!-- /.container-fluid -->
@@ -97,7 +97,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Your Website 2018</span>
+              <span>Copyright © Seu Site 2018</span>
             </div>
           </div>
         </footer>
@@ -118,15 +118,15 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Pronto para sair?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.php">Logout</a>
+            <a class="btn btn-primary" href="login.php">Sair</a>
           </div>
         </div>
       </div>
