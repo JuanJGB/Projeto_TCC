@@ -60,10 +60,6 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="sobre.php">
-                <span>Sobre</span></a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="operacoes.php">
                 <span>Operações</span></a>
         </li>
@@ -79,9 +75,7 @@
             <hr>
             <p>This is a great starting point for new custom pages.</p>
             <div class="container">
-                <div class="card card-register mx-auto mt-5">
 
-            </div>
 
         </div>
         <!-- /.container-fluid -->
