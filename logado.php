@@ -41,7 +41,7 @@ require_once  "valida_login.php";
 
     <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-        asdasdasasd</form>
+    </form>
 
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-md-0">
@@ -69,7 +69,7 @@ require_once  "valida_login.php";
                 <span>Operações</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="register.php">
+            <a class="nav-link" href="cadastro.php">
                 <span>Cadastro</span></a>
         </li>
         <li class="nav-item">

@@ -61,21 +61,12 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="login.php">
-                <span>Login</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="operacoes.php">
-                <span>Operações</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="register.php">
-                <span>Cadastro</span></a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="sobre.php">
                 <span>Sobre</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="controle.php">
+                <span>Controle</span></a>
         </li>
     </ul>
 

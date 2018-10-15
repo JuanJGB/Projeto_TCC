@@ -1,5 +1,5 @@
 <?php
-include_once 'conexao.php';
+
 
 ?>
 <!DOCTYPE html>
@@ -74,7 +74,7 @@ include_once 'conexao.php';
                 <span>Operações</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="register.php">
+            <a class="nav-link" href="cadastro.php">
                 <span>Cadastro</span></a>
         </li>
         <li class="nav-item">

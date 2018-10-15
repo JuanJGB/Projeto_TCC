@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EasyPHP-Devserver-17/eds-modules/phpmyadmin470x181012173502/vendor/codacy/coverage" vcs="Git" />
   </component>
 </project>

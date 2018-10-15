@@ -1,6 +1,8 @@
 <?php
 require_once "login.php";
+
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -55,7 +57,7 @@ require_once "login.php";
             <input class="btn btn-primary btn-block" type="submit" value="Login">
           </form>
           <div class="text-center">
-            <a class="d-block small mt-3" href="register.php">Register an Account</a>
+            <a class="d-block small mt-3" href="cadastro.php">Register an Account</a>
             <a class="d-block small" href="forgot-password.php">Forgot Password?</a>
           </div>
         </div>

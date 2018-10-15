@@ -1,14 +1,17 @@
+
 <?php
 require_once ("funcoes_valida_login.php");
-include_once "logado.php";
+
 $email_usuario = $_POST['Email'];
 $senha_usuario = $_POST['Password'];
 
 $usuario_validado = valida_login($email_usuario,$senha_usuario);
 
 if ($usuario_validado){
-    echo 'Acesso liberado';
+    include_once "logado.php";
+    echo '<h2>Acesso liberado<h2>';
 }else{
-    echo 'Acesso negado';
+    include_once "login.php";
+    echo '<h2>Usuário ou senha inválidos!<h2>';
 
 }
