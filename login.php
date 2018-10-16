@@ -50,15 +50,15 @@ require_once "login.php";
               <div class="checkbox">
                 <label>
                   <input type="checkbox" value="remember-me">
-                  Remember Password
+                  Lembrar da senha
                 </label>
               </div>
             </div>
             <input class="btn btn-primary btn-block" type="submit" value="Login">
           </form>
           <div class="text-center">
-            <a class="d-block small mt-3" href="cadastro.php">Register an Account</a>
-            <a class="d-block small" href="forgot-password.php">Forgot Password?</a>
+            <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
+            <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
           </div>
         </div>
       </div>
