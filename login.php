@@ -27,7 +27,7 @@ require_once "login.php";
 
   </head>
 
-  <body class="bg-dark">
+  <body class="bg-secondary">
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
