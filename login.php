@@ -6,7 +6,7 @@ require_once "login.php";
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,52 +25,54 @@ require_once "login.php";
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body class="bg-secondary">
+<body class="bg-secondary">
 
-    <div class="container">
-      <div class="card card-login mx-auto mt-5">
+<div class="container">
+    <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login</div>
         <div class="card-body">
-          <form method="post" action="valida_login.php">
-            <div class="form-group">
-              <div class="form-label-group">
-                <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="Email" required="required" autofocus="autofocus">
-                <label for="inputEmail">Email</label>
-              </div>
+            <form method="post" action="valida_login.php">
+                <div class="form-group">
+                    <div class="form-label-group">
+                        <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="Email"
+                               required="required" autofocus="autofocus">
+                        <label for="inputEmail">Email</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-label-group">
+                        <input type="password" name="Password" id="inputPassword" class="form-control"
+                               placeholder="Senha" required="required">
+                        <label for="inputPassword">Senha</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="remember-me">
+                            Lembrar da senha
+                        </label>
+                    </div>
+                </div>
+                <input class="btn btn-primary btn-block" type="submit" value="Login">
+            </form>
+            <div class="text-center">
+                <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
+                <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
             </div>
-            <div class="form-group">
-              <div class="form-label-group">
-                <input type="password" name="Password" id="inputPassword" class="form-control" placeholder="Senha" required="required">
-                <label for="inputPassword">Senha</label>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="remember-me">
-                  Lembrar da senha
-                </label>
-              </div>
-            </div>
-            <input class="btn btn-primary btn-block" type="submit" value="Login">
-          </form>
-          <div class="text-center">
-            <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
-            <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
-          </div>
         </div>
-      </div>
     </div>
+</div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  </body>
+</body>
 
 </html>

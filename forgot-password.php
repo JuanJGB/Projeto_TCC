@@ -39,7 +39,7 @@
                 <label for="inputEmail">Insira seu e-mail</label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="login.php">Redefinir Senha</a>
+              <input class="btn btn-primary btn-block" type="submit" value="Redefinir Senha">
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>

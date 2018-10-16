@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,70 +20,75 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body class="bg-secondary">
+<body class="bg-secondary">
 
-    <div class="container">
-      <div class="card card-register mx-auto mt-5">
+<div class="container">
+    <div class="card card-register mx-auto mt-5">
         <div class="card-header">Cadastro</div>
         <div class="card-body">
-          <form>
-            <div class="form-group">
-              <div class="form-row">
-                <div class="col-md-6">
-                  <div class="form-label-group">
-                    <input type="text" id="firstName" class="form-control" placeholder="Primeiro nome" required="required" autofocus="autofocus">
-                    <label for="firstName">Primeiro nome</label>
-                  </div>
+            <form>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="form-label-group">
+                                <input type="text" id="firstName" class="form-control" placeholder="Primeiro nome"
+                                       required="required" autofocus="autofocus">
+                                <label for="firstName">Primeiro nome</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-label-group">
+                                <input type="text" id="lastName" class="form-control" placeholder="Último nome"
+                                       required="required">
+                                <label for="lastName">Último nome</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-label-group">
-                    <input type="text" id="lastName" class="form-control" placeholder="Último nome" required="required">
-                    <label for="lastName">Último nome</label>
-                  </div>
+                <div class="form-group">
+                    <div class="form-label-group">
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de e-mail"
+                               required="required">
+                        <label for="inputEmail">Endereço de e-mail</label>
+                    </div>
                 </div>
-              </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="form-label-group">
+                                <input type="password" id="inputPassword" class="form-control" placeholder="Senha"
+                                       required="required">
+                                <label for="inputPassword">Senha</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-label-group">
+                                <input type="password" id="confirmPassword" class="form-control"
+                                       placeholder="Confirmar senha" required="required">
+                                <label for="confirmPassword">Confirmar senha</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input class="btn btn-primary btn-block" type="submit" value="Cadastrar">
+            </form>
+            <div class="text-center">
+                <a class="d-block small mt-3" href="login.php">Página de login</a>
+                <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
             </div>
-            <div class="form-group">
-              <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de e-mail" required="required">
-                <label for="inputEmail">Endereço de e-mail</label>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="form-row">
-                <div class="col-md-6">
-                  <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="required">
-                    <label for="inputPassword">Senha</label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-label-group">
-                    <input type="password" id="confirmPassword" class="form-control" placeholder="Confirmar senha" required="required">
-                    <label for="confirmPassword">Confirmar senha</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="btn btn-primary btn-block" href="login.php">Registrar</a>
-          </form>
-          <div class="text-center">
-            <a class="d-block small mt-3" href="login.php">Página de login</a>
-            <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
-          </div>
         </div>
-      </div>
     </div>
+</div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  </body>
+</body>
 
 </html>

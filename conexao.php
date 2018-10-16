@@ -10,4 +10,3 @@ $password = '';
          die('Connection failed: ' . mysqli_connect_error());
      }
      mysqli_close($connect);
-
