@@ -26,23 +26,23 @@
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
-        <div class="card-header">Formatar Senha</div>
+        <div class="card-header">Redefinir Senha</div>
         <div class="card-body">
           <div class="text-center mb-4">
-            <h4>Esqeuceu sua senha?</h4>
-            <p>Informe seu endereço de e-mail e nós vamos enviar à você instruções de como formatar sua senha.</p>
+            <h4>Esqueceu sua senha?</h4>
+            <p>Digite seu endereço de e-mail e nós lhe enviaremos instruções sobre como redefinir sua senha.</p>
           </div>
           <form>
             <div class="form-group">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
-                <label for="inputEmail">Informe seu e-mail</label>
+                <label for="inputEmail">Insira seu e-mail</label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="login.php">Formatar Senha</a>
+            <a class="btn btn-primary btn-block" href="login.php">Redefinir Senha</a>
           </form>
           <div class="text-center">
-            <a class="d-block small mt-3" href="cadastro.php">Cadastre uma conta</a>
+            <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
             <a class="d-block small" href="login.php"> Página de Login</a>
           </div>
         </div>
