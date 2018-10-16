@@ -36,13 +36,13 @@ require_once "login.php";
           <form method="post" action="valida_login.php">
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+                <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="Email" required="required" autofocus="autofocus">
                 <label for="inputEmail">Email</label>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" name="Password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                <input type="password" name="Password" id="inputPassword" class="form-control" placeholder="Senha" required="required">
                 <label for="inputPassword">Senha</label>
               </div>
             </div>

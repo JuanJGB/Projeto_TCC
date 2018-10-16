@@ -33,13 +33,13 @@
               <div class="form-row">
                 <div class="col-md-6">
                   <div class="form-label-group">
-                    <input type="text" id="firstName" class="form-control" placeholder="First name" required="required" autofocus="autofocus">
+                    <input type="text" id="firstName" class="form-control" placeholder="Primeiro nome" required="required" autofocus="autofocus">
                     <label for="firstName">Primeiro nome</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-label-group">
-                    <input type="text" id="lastName" class="form-control" placeholder="Last name" required="required">
+                    <input type="text" id="lastName" class="form-control" placeholder="Último nome" required="required">
                     <label for="lastName">Último nome</label>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de e-mail" required="required">
                 <label for="inputEmail">Endereço de e-mail</label>
               </div>
             </div>
@@ -55,13 +55,13 @@
               <div class="form-row">
                 <div class="col-md-6">
                   <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="required">
                     <label for="inputPassword">Senha</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-label-group">
-                    <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm password" required="required">
+                    <input type="password" id="confirmPassword" class="form-control" placeholder="Confirmar senha" required="required">
                     <label for="confirmPassword">Confirmar senha</label>
                   </div>
                 </div>
