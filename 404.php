@@ -29,7 +29,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php">Página Inicial</a>
+      <a class="navbar-brand mr-1" href="logado.php">Página Inicial</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -61,17 +61,9 @@
       <!-- Sidebar -->
       <ul class="sidebar navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">
+          <a class="nav-link" href="logado.php">
             <span>Item 1</span>
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="charts.html">
-            <span>Item 2</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tables.html">
-            <span>Item 3</span></a>
         </li>
       </ul>
 
@@ -82,7 +74,7 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="index.php">Home</a>
+              <a href="logado.php">Home</a>
             </li>
             <li class="breadcrumb-item active">404 Error</li>
           </ol>
@@ -92,7 +84,7 @@
           <p class="lead">Page not found. You can
             <a href="javascript:history.back()">go back</a>
             to the previous page, or
-            <a href="index.php">return home</a>.</p>
+            <a href="logado.php">return home</a>.</p>
 
         </div>
         <!-- /.container-fluid -->

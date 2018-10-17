@@ -29,7 +29,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.php">Página Inicial</a>
+    <a class="navbar-brand mr-1" href="logado.php">Página Inicial</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -37,7 +37,7 @@
 
     <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-    asdasdasasd</form>
+    </form>
 
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-md-0">
@@ -60,10 +60,6 @@
 
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="sobre.php">
-                <span>Sobre</span></a>
-        </li>
         <li class="nav-item">
             <a class="nav-link" href="controle.php">
                 <span>Controle</span></a>

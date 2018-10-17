@@ -33,7 +33,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.php">Página Inicial</a>
+    <a class="navbar-brand mr-1" href="logado.php">Página Inicial</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -65,22 +65,12 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="login.php">
-                <span>Login</span>
-            </a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="operacoes.php">
                 <span>Operações</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="cadastro.php">
-                <span>Cadastro</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="sobre.php">
-                <span>Sobre</span>
-            </a>
+            <a class="nav-link" href="controle.php">
+                <span>Controle</span></a>
         </li>
 
     </ul>
