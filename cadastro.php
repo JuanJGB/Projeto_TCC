@@ -30,19 +30,25 @@
         <div class="card-body">
             <form>
                 <div class="form-group">
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" id="nomeCompleto" class="form-control" placeholder="Nome Completo" required="required">
+                            <label for="nomeCompleto">Nome Completo</label>
+                        </div>
+                    </div>
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" id="firstName" class="form-control" placeholder="Primeiro nome"
+                                <input type="text" id="cpf" class="form-control" placeholder="CPF"
                                        required="required" autofocus="autofocus">
-                                <label for="firstName">Primeiro nome</label>
+                                <label for="cpf">CPF</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" id="lastName" class="form-control" placeholder="Último nome"
+                                <input type="text" id="rg" class="form-control" placeholder="RG"
                                        required="required">
-                                <label for="lastName">Último nome</label>
+                                <label for="rg">RG</label>
                             </div>
                         </div>
                     </div>
