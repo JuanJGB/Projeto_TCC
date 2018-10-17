@@ -90,7 +90,7 @@ require_once "conexao.php";
         <div class="container-fluid">
 
             <!-- Page Content -->
-            <h1>Index Page</h1>
+            <h1>Página Inicial</h1>
             <hr>
             <p>Este é um excelente ponto de partida para novas páginas personalizadas.</p>
 
