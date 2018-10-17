@@ -28,7 +28,7 @@
     <div class="card card-register mx-auto mt-5">
         <div class="card-header">Cadastro</div>
         <div class="card-body">
-            <form>
+            <form method="post" action="login.php">
                 <div class="form-group">
                     <div class="form-group">
                         <div class="form-label-group">
