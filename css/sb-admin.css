@@ -103,6 +103,10 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   content: '\f105';
   font-family: 'Font Awesome 5 Free';
 }
+.navegacao{
+  position: absolute;
+  left: 2px;
+}
 
 .navbar-nav .nav-item.dropdown.show .dropdown-toggle::after {
   content: '\f107';
