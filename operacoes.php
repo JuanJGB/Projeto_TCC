@@ -73,6 +73,7 @@
             <!-- Page Content -->
 
             <h1>Cadastro de Operações:</h1>
+            <hr>
 
 
         </div>

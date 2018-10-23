@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
   <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - 404 Error</title>
+    <title>Erro</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -84,7 +84,7 @@
           <p class="lead">Page not found. You can
             <a href="javascript:history.back()">go back</a>
             to the previous page, or
-            <a href="logado.php">return home</a>.</p>
+            <a href="logado.php">Voltar a página inicial</a>.</p>
 
         </div>
         <!-- /.container-fluid -->
