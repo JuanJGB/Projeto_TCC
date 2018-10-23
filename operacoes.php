@@ -42,7 +42,8 @@
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-md-0">
         <li class="nav-item dropdown no-arrow">
-            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-user-circle fa-fw"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
@@ -72,39 +73,51 @@
 
             <!-- Page Content -->
 
-            <h1>Cadastro de Operações:</h1>
+            <h1>Operações:</h1>
             <hr>
-            <div class="card">
-                <div class="card-header">
-                    Featured
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    Featured
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    Featured
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
 
+            <div class="row ">
+                <div class="card">
+                    <div class="card-header">
+                        Operações a fazer
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="list-group">
+                            <button type="button" class="list-group-item list-group-item-action active">
+                                Cras justo odio
+                            </button>
+                            <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+                            <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+                            <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+                            <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+                        </div>
+                        <a href="#" class="btn btn-primary">Cadastrar operação</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Operações em andamento
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Cadastrar operação</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        Operações concluidas
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Cadastrar operação</a>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
         <!-- /.container-fluid -->
@@ -130,7 +143,8 @@
 </a>
 
 <!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
