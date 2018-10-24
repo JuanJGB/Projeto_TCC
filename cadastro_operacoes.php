@@ -81,6 +81,71 @@ require_once ("conexao.php");
             <h1> Cadastro de operações:</h1>
             <hr>
 
+
+            <div class="container">
+                <div class="card card-register mx-auto mt-5">
+                    <div class="card-header">Cadastro</div>
+                    <div class="card-body">
+                        <form method="post" action="valida_cadastro.php">
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <div class="form-label-group">
+                                        <input type="text" id="nomeCompleto" class="form-control" autofocus="autofocus"
+                                               placeholder="Nome Completo" required="required">
+                                        <label for="nomeCompleto">Nome Completo</label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" name="cpf" class="form-control" placeholder="CPF"
+                                                   required="required">
+                                            <label for="cpf">CPF</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" name="rg" class="form-control" placeholder="RG"
+                                                   required="required">
+                                            <label for="rg">RG</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input type="email" name="inputEmail" class="form-control" placeholder="Endereço de e-mail"
+                                           required="required">
+                                    <label for="inputEmail">Endereço de e-mail</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="password" name="inputPassword" class="form-control" placeholder="Senha"
+                                                   required="required">
+                                            <label for="inputPassword">Senha</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="password" name="confirmPassword" class="form-control"
+                                                   placeholder="Confirmar senha" required="required">
+                                            <label for="confirmPassword">Confirmar senha</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input class="btn btn-primary btn-block" type="submit" value="Cadastrar">
+                        </form>
+                        <div class="text-center">
+                            <a class="d-block small mt-3" href="login.php">Página de login</a>
+                            <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
+                        </div>
+                    </div>
+                </div>
+
                    <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->

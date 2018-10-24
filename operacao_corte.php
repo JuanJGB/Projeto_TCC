@@ -47,7 +47,7 @@
                 <a class="nav-link" href="operacao_risco.php">Risco</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_corte.php">Corte</a>
+                <a class="nav-link bg-secondary" href="operacao_corte.php">Corte</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="operacao_costura.php">Costura</a>
@@ -74,7 +74,6 @@
                aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-user-circle fa-fw"></i>
             </a>
-
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">Configurações</a>
                 <a class="dropdown-item" href="#">Perfil</a>
@@ -97,7 +96,7 @@
 
             <!-- Page Content -->
 
-            <h1>Operações:</h1>
+            <h1>Operação Corte:</h1>
             <hr>
 
             <div class="row">
@@ -113,72 +112,7 @@
                             </a>
                         </div>
                         <div class="card-footer bg-transparent border-info">
-
-                            <ul class="navbar-nav ml-auto ml-md-0">
-                                <li class="nav-item dropdown no-arrow">
-                                    <a class="nav-link dropdown-toggle btn btn-info" href="#" id="userDropdown" role="button" data-toggle="dropdown"
-                                       aria-haspopup="true" aria-expanded="false">
-                                        <span>Cadastrar operação</span>
-                                    </a>
-
-                                    <div class="dropdown-menu align-content-center" aria-labelledby="userDropdown">
-
-                                        <form method="post" class="dropdown-item" action="cadastrar_operacoes.php">
-                                            <div class="form-group">
-                                                <div class="form-group">
-                                                    <div class="form-label-group">
-                                                        <input type="text" id="nomeCompleto" class="form-control" autofocus="autofocus"
-                                                               placeholder="Nome Completo" required="required">
-                                                        <label for="nomeCompleto">Nome Completo</label>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-label-group">
-                                                            <input type="text" name="cpf" class="form-control" placeholder="CPF"
-                                                                   required="required">
-                                                            <label for="cpf">CPF</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-label-group">
-                                                            <input type="text" name="rg" class="form-control" placeholder="RG"
-                                                                   required="required">
-                                                            <label for="rg">RG</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="form-label-group">
-                                                    <input type="email" name="inputEmail" class="form-control" placeholder="Endereço de e-mail"
-                                                           required="required">
-                                                    <label for="inputEmail">Endereço de e-mail</label>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="form-row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-label-group">
-                                                            <input type="password" name="inputPassword" class="form-control" placeholder="Senha"
-                                                                   required="required">
-                                                            <label for="inputPassword">Senha</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-label-group">
-                                                            <input type="password" name="confirmPassword" class="form-control"
-                                                                   placeholder="Confirmar senha" required="required">
-                                                            <label for="confirmPassword">Confirmar senha</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <input class="btn btn-primary btn-block" type="submit" value="Cadastrar">
-                                        </form>
-                                    </div>
-                                </li>
-                            </ul>
+                            <a href="cadastro_operacoes.php" class="btn btn-info">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
