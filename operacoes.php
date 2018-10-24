@@ -83,16 +83,16 @@
                     </div>
                     <div class="card-body">
                         <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action ">
+                            <a class="btn btn-outline-warning list-group-item list-group-item-action ">
                                 Corte
-                            </button>
+                            </a>
 
-                            <button type="button" class="list-group-item list-group-item-action ">
+                            <a class="btn btn-outline-warning list-group-item list-group-item-action ">
                                 Passar
-                            </button>
+                            </a>
                         </div>
                         <div class="modal-footer">
-                            <a href=" Cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                            <a href="cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
                         </div>
 
                     </div>
@@ -102,16 +102,16 @@
                         Operações em andamento
                     </div>
                     <div class="card-body">
-                        <button type="button" class="list-group-item list-group-item-action ">
+                        <a class="btn btn-outline-secondary list-group-item list-group-item-action ">
                             Corte
-                        </button>
+                        </a>
 
-                        <button type="button" class="list-group-item list-group-item-action ">
+                        <a class="btn btn-outline-secondary list-group-item list-group-item-action ">
                             Passar
-                        </button>
+                        </a>
 
                         <div class="modal-footer">
-                            <a href=" Cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                            <a href="cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
@@ -121,16 +121,19 @@
                         Operações concluidas
                     </div>
                     <div class="card-body">
-                        <button type="button" class="list-group-item list-group-item-action ">
-                            Corte
-                        </button>
+                        <div class="list-group">
+                            <div class="list-group">
+                                <a class="btn btn-outline-success list-group-item list-group-item-action ">
+                                    Corte
+                                </a>
 
-                        <button type="button" class="list-group-item list-group-item-action ">
-                            Passar
-                        </button>
-
+                                <a class="btn btn-outline-success list-group-item list-group-item-action ">
+                                    Passar
+                                </a>
+                            </div>
+                        </div>
                         <div class="modal-footer">
-                            <a href=" Cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                            <a href="cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>

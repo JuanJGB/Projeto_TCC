@@ -67,8 +67,8 @@ require_once ("conexao.php");
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="controle.php">
-                <span>Controle</span></a>
+            <a class="nav-link" href="operacoes.php">
+                <span>Voltar para Operações</span></a>
         </li>
     </ul>
 
@@ -78,7 +78,7 @@ require_once ("conexao.php");
 
             <!-- Page Content -->
 
-            <h1>Operações:</h1>
+            <h1> Cadastro de operações:</h1>
             <hr>
 
                    <!-- /.container-fluid -->

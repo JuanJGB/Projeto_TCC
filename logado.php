@@ -94,7 +94,6 @@ require_once "conexao.php";
             <!-- Page Content -->
             <h1>Página Inicial</h1>
             <hr>
-            <p>Este é um excelente ponto de partida para novas páginas personalizadas.</p>
 
         </div>
         <!-- /.container-fluid -->
@@ -133,7 +132,7 @@ require_once "conexao.php";
             <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-primary" href="login.php">Sair</a>
+                <a class="btn btn-primary"  href="login.php" >Sair</a>
             </div>
         </div>
     </div>
