@@ -79,11 +79,6 @@ require_once "conexao.php";
             </a>
 
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="sobre.php">
-                <span>Sobre</span>
-            </a>
-        </li>
 
     </ul>
 
@@ -94,6 +89,7 @@ require_once "conexao.php";
             <!-- Page Content -->
             <h1>Página Inicial</h1>
             <hr>
+
 
         </div>
         <!-- /.container-fluid -->

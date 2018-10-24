@@ -68,7 +68,7 @@ require_once ("conexao.php");
     <ul class="sidebar navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="operacoes.php">
-                <span>Voltar para Operações</span></a>
+                <span>Cancelar</span></a>
         </li>
     </ul>
 

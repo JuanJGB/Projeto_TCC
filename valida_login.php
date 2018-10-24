@@ -13,5 +13,4 @@ if ($usuario_validado){
 }else{
     include_once "login.php";
     echo '<h2>Usuário ou senha inválidos!<h2>';
-
 }

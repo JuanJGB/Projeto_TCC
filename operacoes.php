@@ -23,6 +23,8 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body id="page-top">
@@ -76,13 +78,29 @@
             <h1>Operações:</h1>
             <hr>
 
-            <div class="row ">
-                <div class="card">
-                    <div class="card-header">
-                        Operações a fazer:
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card border-info mb-3" style="max-width: 23rem;">
+                        <div class="card-header border-info">Operações a fazer </div>
+                        <div class="card-body text-secondary">
+                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
+                                Corte
+                            </a>
+                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
+                                Passar
+                            </a>
+                        </div>
+                        <div class="card-footer bg-transparent border-info">
+                            <a href="cadastro_operacoes.php" class="btn btn-info">Cadastrar operação</a>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <div class="list-group">
+                </div>
+
+
+                <div class="col-sm-4">
+                    <div class="card border-warning mb-3" style="max-width: 23rem;">
+                        <div class="card-header border-warning">Operações em andamento </div>
+                        <div class="card-body text-warning">
                             <a class="btn btn-outline-warning list-group-item list-group-item-action ">
                                 Corte
                             </a>
@@ -90,50 +108,33 @@
                             <a class="btn btn-outline-warning list-group-item list-group-item-action ">
                                 Passar
                             </a>
+                            <a class="btn btn-outline-warning list-group-item list-group-item-action ">
+                                Passar
+                            </a>
+                            <a class="btn btn-outline-warning list-group-item list-group-item-action ">
+                                Passar
+                            </a>
+                            <a class="btn btn-outline-warning list-group-item list-group-item-action ">
+                                Passar
+                            </a>
                         </div>
-                        <div class="modal-footer">
-                            <a href="cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        Operações em andamento
-                    </div>
-                    <div class="card-body">
-                        <a class="btn btn-outline-secondary list-group-item list-group-item-action ">
-                            Corte
-                        </a>
-
-                        <a class="btn btn-outline-secondary list-group-item list-group-item-action ">
-                            Passar
-                        </a>
-
-                        <div class="modal-footer">
-                            <a href="cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                        <div class="card-footer bg-transparent border-warning">
+                            <a href="cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        Operações concluidas
-                    </div>
-                    <div class="card-body">
-                        <div class="list-group">
-                            <div class="list-group">
-                                <a class="btn btn-outline-success list-group-item list-group-item-action ">
-                                    Corte
-                                </a>
+                <div class="col-sm-4">
+                    <div class="card border-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header border-success">Operações concluídas</div>
+                        <div class="card-body text-success">
+                            <a class="btn btn-outline-success list-group-item list-group-item-action ">
+                                Corte
+                            </a>
 
-                                <a class="btn btn-outline-success list-group-item list-group-item-action ">
-                                    Passar
-                                </a>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                            <a class="btn btn-outline-success list-group-item list-group-item-action ">
+                                Passar
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +175,9 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
+            <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão
+                atual.
+            </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                 <a class="btn btn-primary" href="login.php">Sair</a>

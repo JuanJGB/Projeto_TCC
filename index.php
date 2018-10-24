@@ -36,7 +36,7 @@ require_once "conexao.php";
             <form method="post" action="valida_login.php">
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="Email"
+                        <input type="email" id="inputEmail" name="Email" class="form-control" placeholder="Email"
                                required="required" autofocus="autofocus">
                         <label for="inputEmail">Email</label>
                     </div>
