@@ -79,20 +79,22 @@
             <div class="row ">
                 <div class="card">
                     <div class="card-header">
-                        Operações a fazer
+                        Operações a fazer:
                     </div>
                     <div class="card-body">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active">
-                                Cras justo odio
+                            <button type="button" class="list-group-item list-group-item-action ">
+                                Corte
                             </button>
-                            <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
-                            <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-                            <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
-                            <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+
+                            <button type="button" class="list-group-item list-group-item-action ">
+                                Passar
+                            </button>
                         </div>
-                        <a href="#" class="btn btn-primary">Cadastrar operação</a>
+                        <div class="modal-footer">
+                            <a href=" Cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                        </div>
+
                     </div>
                 </div>
                 <div class="card">
@@ -100,9 +102,17 @@
                         Operações em andamento
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Cadastrar operação</a>
+                        <button type="button" class="list-group-item list-group-item-action ">
+                            Corte
+                        </button>
+
+                        <button type="button" class="list-group-item list-group-item-action ">
+                            Passar
+                        </button>
+
+                        <div class="modal-footer">
+                            <a href=" Cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                        </div>
                     </div>
                 </div>
 
@@ -111,9 +121,17 @@
                         Operações concluidas
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Cadastrar operação</a>
+                        <button type="button" class="list-group-item list-group-item-action ">
+                            Corte
+                        </button>
+
+                        <button type="button" class="list-group-item list-group-item-action ">
+                            Passar
+                        </button>
+
+                        <div class="modal-footer">
+                            <a href=" Cadastro_operacoes.php" class="btn btn-primary">Cadastrar operação</a>
+                        </div>
                     </div>
                 </div>
 
