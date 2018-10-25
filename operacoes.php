@@ -53,7 +53,7 @@
                 <a class="nav-link" href="operacao_costura.php">Costura</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_beneficio.php">Benficios</a>
+                <a class="nav-link" href="operacao_beneficio.php">Beneficios</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="operacao_acabamento.php">Acabamento</a>
@@ -123,7 +123,7 @@
 
                                     <div class="dropdown-menu align-content-center" aria-labelledby="userDropdown">
 
-                                        <form method="post" class="dropdown-item" action="cadastrar_operacoes.php">
+                                        <form method="post" class="" action="cadastrar_operacoes.php">
                                             <div class="form-group">
                                                 <div class="form-group">
                                                     <div class="form-label-group">

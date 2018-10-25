@@ -53,7 +53,7 @@
                 <a class="nav-link bg-secondary" href="operacao_costura.php">Costura</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_beneficio.php">Benficios</a>
+                <a class="nav-link" href="operacao_beneficio.php">Beneficios</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="operacao_acabamento.php">Acabamento</a>
