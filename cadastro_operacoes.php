@@ -31,59 +31,57 @@
             <form method="post" action="cadastro_operacoes.php">
                 <div class="form-group">
                     <div class="form-group">
-                        <div class="form-label-group">
-                            <input type="text" id="nomeCompleto" class="form-control" autofocus="autofocus"
-                                   placeholder="Nome Completo" required="required">
-                            <label for="nomeCompleto">Nome operação</label>
+
+                        <label for="DescricaoOpe">Descrição da operação:</label>
+                        <textarea required="required" class="form-control" rows="2" id="DescricaoOpe"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <div class="form-label-group">
+                                    <input type="date" name="datainicio" class="form-control"
+                                           placeholder="Data Inicio:"
+                                           required="required">
+                                    <label for="datainicio">Data Inicio:</label>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <div class="form-label-group">
+                                    <input type="date" name="datalimite" class="form-control"
+                                           placeholder="Data limite:"
+                                           required="required">
+                                    <label for="datalimite">Data limite:</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" name="cpf" class="form-control" placeholder="CPF"
+                                <input type="text" name="custosOpe" class="form-control fa-credit-card" placeholder="Custos"
                                        required="required">
-                                <label for="cpf">CPF</label>
+                                <label for="custosOpe">Custos:</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" name="rg" class="form-control" placeholder="RG"
+                                <input type="number" name="LoteProd" class="form-control"
+                                       placeholder="Lote de Produção"
                                        required="required">
-                                <label for="rg">RG</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-label-group">
-                        <input type="email" name="inputEmail" class="form-control" placeholder="Endereço de e-mail"
-                               required="required">
-                        <label for="inputEmail">Endereço de e-mail</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-row">
-                        <div class="col-md-6">
-                            <div class="form-label-group">
-                                <input type="password" name="inputPassword" class="form-control" placeholder="Senha"
-                                       required="required">
-                                <label for="inputPassword">Senha</label>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-label-group">
-                                <input type="password" name="confirmPassword" class="form-control"
-                                       placeholder="Confirmar senha" required="required">
-                                <label for="confirmPassword">Confirmar senha</label>
+                                <label for="LoteProd">Lote de Produção:</label>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                    <div class="col-md-12">
-                        <button onclick="history.go(-1)" class="btn btn-primary">Cancelar</button>
-                        <input class="btn btn-primary" type="submit" value="Cadastrar">
-                    </div>
+                <div class="col-md-12">
+                    <button onclick="history.go(-1)" class="btn btn-primary">Cancelar</button>
+                    <input class="btn btn-primary" type="submit" value="Cadastrar">
+                </div>
             </form>
         </div>
     </div>

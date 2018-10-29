@@ -53,7 +53,7 @@
                 <a class="nav-link" href="operacao_costura.php">Costura</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link bg-secondary" href="operacao_beneficio.php">Beneficios</a>
+                <a class="nav-link bg-secondary" href="operacao_beneficiamento.php">Beneficios</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="operacao_acabamento.php">Acabamento</a>
@@ -96,7 +96,7 @@
 
             <!-- Page Content -->
 
-            <h1>Operação Benefício:</h1>
+            <h1>Operação Beneficiamento:</h1>
             <hr>
 
             <div class="row">
@@ -108,7 +108,7 @@
                                 Costura
                             </a>
                             <a class="btn btn-outline-info list-group-item list-group-item-action ">
-                                Beneficios
+                                Beneficiamento
                             </a>
                         </div>
                         <div class="card-footer bg-transparent border-info">
