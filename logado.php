@@ -25,7 +25,7 @@
 
 </head>
 
-<body id="page-top" >
+<body id="page-top">
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
@@ -34,7 +34,6 @@
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
     </button>
-
 
 
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -65,9 +64,22 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
 
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <span>Operações</span></a>
+        <li class="nav-item dropdown show">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="true">
+
+                <span>Operações</span>
+            </a>
+            <div class="dropdown-menu show" aria-labelledby="pagesDropdown" x-placement="bottom-start"
+                 style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(5px, 56px, 0px);">
+                <h6 class="dropdown-header">Tipos de Operações</h6>
+                <a class="dropdown-item" href="operacao_risco.php">Risco</a>
+                <a class="dropdown-item" href="operacao_corte.php">Corte</a>
+                <a class="dropdown-item" href="operacao_costura.php">Costura</a>
+                <a class="dropdown-item" href="operacao_beneficiamento.php">Beneficiamento</a>
+                <a class="dropdown-item" href="operacao_acabamento.php">Acabamento</a>
+
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="controle.php">
@@ -124,7 +136,7 @@
             <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-primary"  href="login.php" >Sair</a>
+                <a class="btn btn-primary" href="login.php">Sair</a>
             </div>
         </div>
     </div>
