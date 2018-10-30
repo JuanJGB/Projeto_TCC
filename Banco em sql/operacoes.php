@@ -12,18 +12,18 @@
     <title>Operações</title>
 
     <!-- Bootstrap core CSS-->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Page level plugin CSS-->
-    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="../vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="../css/sb-admin.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 
 </head>
 
@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top ">
 
 
-    <a class="navbar-brand mr-1" href="logado.php">Página Inicial</a>
+    <a class="navbar-brand mr-1" href="../logado.php">Página Inicial</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,19 +44,19 @@
                 <a class="nav-link" href="#"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_risco.php">Risco</a>
+                <a class="nav-link" href="../operacao_risco.php">Risco</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_corte.php">Corte</a>
+                <a class="nav-link" href="../operacao_corte.php">Corte</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_costura.php">Costura</a>
+                <a class="nav-link" href="../operacao_costura.php">Costura</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_beneficiamento.php">Beneficios</a>
+                <a class="nav-link" href="../operacao_beneficiamento.php">Beneficios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="operacao_acabamento.php">Acabamento</a>
+                <a class="nav-link" href="../operacao_acabamento.php">Acabamento</a>
             </li>
         </ul>
     </div>
@@ -194,7 +194,7 @@
 
                         </div>
                         <div class="card-footer bg-transparent border-warning">
-                            <a href="cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar operação</a>
+                            <a href="../cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
@@ -255,21 +255,21 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-primary" href="login.php">Sair</a>
+                <a class="btn btn-primary" href="../login.php">Sair</a>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Core plugin JavaScript-->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for all pages-->
-<script src="js/sb-admin.min.js"></script>
+<script src="../js/sb-admin.min.js"></script>
 
 </body>
 
