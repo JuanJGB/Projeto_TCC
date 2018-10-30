@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>O.O.R.T</title>
+    <title>DyOpe Assistant</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
 
-    <a class="navbar-brand mr-1" href="logado.php">Página Inicial</a>
+    <a class="navbar-brand mr-1" href="logado.php">DyOpe Assistant</a>
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
     </button>
@@ -66,7 +66,7 @@
 
         <li class="nav-item dropdown show">
             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="true">
+               aria-haspopup="true" aria-expanded="false">
 
                 <span>Operações</span>
             </a>
