@@ -34,32 +34,10 @@
 
 
     <a class="navbar-brand mr-1" href="logado.php">Página Inicial</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+        <i class="fas fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item ">
-                <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link bg-secondary" href="operacao_risco.php">Risco</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="operacao_corte.php">Corte</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="operacao_costura.php">Costura</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="operacao_beneficiamento.php">Beneficiamento</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="operacao_acabamento.php">Acabamento</a>
-            </li>
-        </ul>
-    </div>
+
 
 
     <!-- Navbar Search -->
@@ -88,6 +66,24 @@
 <div id="wrapper">
 
     <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link" href="operacao_risco.php"><span>Risco</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="operacao_corte.php"><span>Corte</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="operacao_costura.php"><span>Costura</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="operacao_beneficiamento.php"><span>Beneficiamento</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="operacao_acabamento.php"><span>Acabamento</span></a>
+        </li>
+    </ul>
 
 
     <div id="content-wrapper">

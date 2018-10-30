@@ -1,4 +1,4 @@
-oi<?php
+<?php
 /**
  * Created by PhpStorm.
  * User: jugub

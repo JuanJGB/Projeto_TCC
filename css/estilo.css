@@ -1,3 +1,6 @@
 .lista {
     max-width: 24rem;
 }
+.teste{
+    resize: none;
+}
