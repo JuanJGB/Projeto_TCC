@@ -62,7 +62,8 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" name="custosOpe" class="form-control fa-credit-card" placeholder="Custos"
+                                <input type="text" name="custosOpe" class="form-control fa-credit-card"
+                                       placeholder="Custos"
                                        required="required">
                                 <label for="custosOpe">Custos:</label>
                             </div>
