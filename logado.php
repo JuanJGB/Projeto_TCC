@@ -23,6 +23,8 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body id="page-top">
@@ -58,7 +60,6 @@
     </ul>
 
 </nav>
-
 <div id="wrapper">
 
     <!-- Sidebar -->
@@ -67,11 +68,9 @@
         <li class="nav-item dropdown show">
             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false">
-
                 <span>Operações</span>
             </a>
-            <div class="dropdown-menu show" aria-labelledby="pagesDropdown" x-placement="bottom-start"
-                 style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(5px, 56px, 0px);">
+            <div class="dropdown-menu" aria-labelledby="pagesDropdown" x-placement="bottom-start">
                 <h6 class="dropdown-header">Tipos de Operações</h6>
                 <a class="dropdown-item" href="operacao_risco.php">Risco</a>
                 <a class="dropdown-item" href="operacao_corte.php">Corte</a>
