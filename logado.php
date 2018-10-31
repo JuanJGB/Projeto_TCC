@@ -89,7 +89,7 @@
 
     </ul>
 
-    <div id="content-wrapper">
+    <div id="content-wrapper"  class="fundo">
 
         <div class="container-fluid">
 
@@ -103,8 +103,8 @@
 
         <!-- Sticky Footer -->
         <footer class="sticky-footer">
-            <div class="container my-auto">
-                <div class="copyright text-center my-auto">
+            <div class="container my-auto ">
+                <div class="copyright text-center my-auto ">
                     <span>Copyright © DyOpe Assistant 2018</span>
                 </div>
             </div>

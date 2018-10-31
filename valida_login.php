@@ -9,7 +9,6 @@ $usuario_validado = valida_login($email_usuario,$senha_usuario);
 
 if ($usuario_validado){
     include_once "logado.php";
-    echo '<h2>Acesso liberado<h2>';
 }else{
     include_once "login.php";
     echo '<h2>Usuário ou senha inválidos!<h2>';

@@ -40,14 +40,14 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" name="cpf" class="form-control" placeholder="CPF"
+                                <input type="text" id="cpf" class="form-control" placeholder="CPF"
                                        required="required">
                                 <label for="cpf">CPF</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" name="rg" class="form-control" placeholder="RG"
+                                <input type="text" id="rg" class="form-control" placeholder="RG"
                                        required="required">
                                 <label for="rg">RG</label>
                             </div>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="email" name="inputEmail" class="form-control" placeholder="Endereço de e-mail"
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de e-mail"
                                required="required">
                         <label for="inputEmail">Endereço de e-mail</label>
                     </div>
@@ -65,14 +65,14 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="password" name="inputPassword" class="form-control" placeholder="Senha"
+                                <input type="password" id="inputPassword" class="form-control" placeholder="Senha"
                                        required="required">
                                 <label for="inputPassword">Senha</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="password" name="confirmPassword" class="form-control"
+                                <input type="password" id="confirmPassword" class="form-control"
                                        placeholder="Confirmar senha" required="required">
                                 <label for="confirmPassword">Confirmar senha</label>
                             </div>

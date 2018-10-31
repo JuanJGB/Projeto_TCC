@@ -39,7 +39,7 @@
                         <div class="form-row">
                             <div class="col-md-6">
                                 <div class="form-label-group">
-                                    <input type="date" name="datainicio" class="form-control"
+                                    <input type="date" id="datainicio" class="form-control"
                                            placeholder="Data Inicio:"
                                            required="required">
                                     <label for="datainicio">Data Inicio:</label>
@@ -49,7 +49,7 @@
 
                             <div class="col-md-6">
                                 <div class="form-label-group">
-                                    <input type="date" name="datalimite" class="form-control"
+                                    <input type="date" id="datalimite" class="form-control"
                                            placeholder="Data limite:"
                                            required="required">
                                     <label for="datalimite">Data limite:</label>
@@ -62,7 +62,7 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" name="custosOpe" class="form-control fa-credit-card"
+                                <input type="text" id="custosOpe" class="form-control fa-credit-card"
                                        placeholder="Custos"
                                        required="required">
                                 <label for="custosOpe">Custos:</label>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="number" name="LoteProd" class="form-control"
+                                <input type="number" id="LoteProd" class="form-control"
                                        placeholder="Lote de Produção"
                                        required="required">
                                 <label for="LoteProd">Lote de Produção:</label>

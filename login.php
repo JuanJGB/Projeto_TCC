@@ -56,7 +56,7 @@ require_once "login.php";
                         </label>
                     </div>
                 </div>
-                <input class="btn btn-primary btn-block" type="submit" value="Login">
+                <input class="btn btn-info btn-block" type="submit" value="Login">
             </form>
             <div class="text-center">
                 <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
