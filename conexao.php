@@ -1,12 +1,25 @@
 <?php
-$servername = '127.0.0.1';
-$database = 'projetotcc_oort';
-$username = 'root';
-$password = '';
-$connect = mysqli_connect($servername,$username,$password,$database);
 
-     if (!$connect) {
-         include_once '404.php';
-         die('Connection failed: ' . mysqli_connect_error());
-     }
-     mysqli_close($connect);
+class db{
+    private $servername = '127.0.0.1';
+    private $database = 'db_dyope_assistant';
+    private $username = 'root';
+    private $password = 'admin';
+
+    public function conecta_mysql(){
+        $connect = mysqli_connect($this->servername, $this->username, $this->password, $this->database);
+
+        mysqli_set_charset($connect, 'utf8');
+
+        if (mysqli_connect_errno()){
+           echo 'Erro ao se conectar com Banco de dados: '. mysqli_connect_error();
+        }
+        return $connect;
+
+    }
+
+
+
+
+
+}
