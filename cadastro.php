@@ -32,7 +32,7 @@
                 <div class="form-group">
                     <div class="form-group">
                         <div class="form-label-group">
-                            <input type="text" id="nomeCompleto" class="form-control" autofocus="autofocus"
+                            <input type="text" name="nome" id="nomeCompleto" class="form-control" autofocus="autofocus"
                                    placeholder="Nome Completo" required="required">
                             <label for="nomeCompleto">Nome Completo</label>
                         </div>
@@ -40,14 +40,14 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" id="cpf" class="form-control" placeholder="CPF"
+                                <input type="text" name="cpf" id="cpf" class="form-control" placeholder="CPF"
                                        required="required">
                                 <label for="cpf">CPF</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="text" id="rg" class="form-control" placeholder="RG"
+                                <input type="text" name="rg" id="rg" class="form-control" placeholder="RG"
                                        required="required">
                                 <label for="rg">RG</label>
                             </div>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de e-mail"
+                        <input type="email" name="emailGer" id="inputEmail" class="form-control" placeholder="Endereço de e-mail"
                                required="required">
                         <label for="inputEmail">Endereço de e-mail</label>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <div class="form-label-group">
-                                <input type="password" id="inputPassword" class="form-control" placeholder="Senha"
+                                <input type="password" name="senhaGer" id="inputPassword" class="form-control" placeholder="Senha"
                                        required="required">
                                 <label for="inputPassword">Senha</label>
                             </div>
