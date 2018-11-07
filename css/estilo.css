@@ -14,3 +14,8 @@
 .menu:hover .menudrop{
     display: block;
 }
+
+.fundo{
+    background-image: url("../imagens/Operations.jpg");
+    background-size: cover;
+}

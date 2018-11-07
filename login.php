@@ -25,6 +25,8 @@ require_once "login.php";
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body class="bg-secondary">
@@ -45,7 +47,7 @@ require_once "login.php";
                     <div class="form-label-group">
                         <input type="password" name="Password" id="inputPassword" class="form-control"
                                placeholder="Senha" required="required">
-                        <label for="inputPassword">Senha</label>
+                        <label for="inputPassword"> Senha</label>
                     </div>
                 </div>
                 <div class="form-group">
