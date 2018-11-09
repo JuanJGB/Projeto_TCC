@@ -2,9 +2,9 @@
 
 class db
 {
-    private $servername = 'http://185.27.134.10';
+    private $servername = 'sql207.epizy.com';
     private $database = 'epiz_22961353_db_dyope_assistant';
-    private $username = 'root';
+    private $username = 'epiz_22961353@192.168.0.6';
     private $password = '';
 
     public function conecta_mysql()
