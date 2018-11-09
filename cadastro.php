@@ -79,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <input class="btn btn-primary btn-block" type="submit" value="Cadastrar">
+                <input class="btn btn-info btn-block" type="submit" value="Cadastrar">
             </form>
             <div class="text-center">
                 <a class="d-block small mt-3" href="login.php">Página de login</a>
