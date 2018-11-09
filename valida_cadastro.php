@@ -1,5 +1,5 @@
 <?php
-require_once('conexao.php');
+require_once('db.class.php');
 
 
 $cpf = isset($_POST['cpf']) ? $_POST['cpf'] : '';
