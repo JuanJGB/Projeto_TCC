@@ -2,8 +2,8 @@
 
 class db
 {
-    private $servername = '127.0.0.1';
-    private $database = 'db_dyope_assistant';
+    private $servername = 'http://185.27.134.10';
+    private $database = 'epiz_22961353_db_dyope_assistant';
     private $username = 'root';
     private $password = '';
 
