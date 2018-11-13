@@ -1,7 +1,7 @@
 <?php
 require_once 'db.class.php';
 
-echo 'Hello World';
+echo 'Olá mundo';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
