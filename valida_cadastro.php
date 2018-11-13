@@ -1,7 +1,6 @@
 <?php
 require_once('db.class.php');
 
-
 $cpf = isset($_POST['cpf']) ? $_POST['cpf'] : '';
 
 $total_string_cpf = strlen($cpf);

@@ -87,6 +87,8 @@
 
         <div class="container-fluid">
 
+
+
             <!-- Page Content -->
 
             <h1>Operação Risco:</h1>
@@ -97,10 +99,10 @@
                     <div class="card border-info mb-3 lista">
                         <div class="card-header border-info">Operações a fazer</div>
                         <div class="card-body text-secondary">
-                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
+                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#" data-toggle="modal" data-target="#logoutModal">
                                 Costura
                             </a>
-                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
+                            <a class="btn btn-outline-info list-group-item list-group-item-action " >
                                 Beneficiamento
                             </a>
                         </div>
@@ -187,6 +189,9 @@
         </div>
     </div>
 </div>
+
+<! modal:
+
 
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
