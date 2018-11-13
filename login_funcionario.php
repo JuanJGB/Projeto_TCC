@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Operações</title>
+    <title>DyOpe Assistant</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,17 +32,17 @@
 
 <body id="page-top">
 
-
-<nav class="navbar navbar-expand navbar-dark bg-dark sticky-top ">
+<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
 
     <a class="navbar-brand mr-1" href="gerente_index.php">DyOpe Assistant</a>
+
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
     </button>
 
-    <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+
     </form>
 
     <!-- Navbar -->
@@ -59,15 +62,14 @@
     </ul>
 
 </nav>
-
 <div id="wrapper">
 
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
 
-        <li class="nav-item dropdown ">
+        <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+               aria-haspopup="false" aria-expanded="false">
                 <span>Operações</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="pagesDropdown" x-placement="bottom-start">
@@ -80,76 +82,31 @@
 
             </div>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="controle.php">
+                <span>Controle</span>
+            </a>
+
+        </li>
+
     </ul>
 
+    <div id="content-wrapper" class="fundo">
 
-    <div id="content-wrapper">
-
-        <div class="container-fluid ">
+        <div class="container-fluid">
 
             <!-- Page Content -->
-
-            <h1>Operação Corte:</h1>
+            <h1>Página Inicial</h1>
             <hr>
 
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card border-info mb-3 lista">
-                        <div class="card-header border-info">Operações a fazer</div>
-                        <div class="card-body text-secondary">
-                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
-                                Costura
-                            </a>
-                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
-                                Beneficiamento
-                            </a>
-                        </div>
-                        <div class="card-footer bg-transparent border-info">
-                            <a href="cadastro_operacoes.php" class="btn btn-info">Cadastrar operação</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-4">
-                    <div class="card border-warning mb-3 lista">
-                        <div class="card-header border-warning">Operações em andamento</div>
-                        <div class="card-body text-warning">
-                            <a class="btn btn-outline-warning list-group-item list-group-item-action ">
-                                Acabamento
-                            </a>
-
-                        </div>
-                        <div class="card-footer bg-transparent border-warning">
-                            <a href="cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar operação</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card border-success mb-3 lista">
-                        <div class="card-header border-success">Operações concluídas</div>
-                        <div class="card-body text-success">
-                            <a class="btn btn-outline-success list-group-item list-group-item-action ">
-                                Risco
-                            </a>
-
-                            <a class="btn btn-outline-success list-group-item list-group-item-action ">
-                                Corte
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
 
         </div>
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
         <footer class="sticky-footer">
-            <div class="container my-auto">
-                <div class="copyright text-center my-auto">
+            <div class="container my-auto ">
+                <div class="copyright text-center my-auto ">
                     <span>Copyright © DyOpe Assistant 2018</span>
                 </div>
             </div>
@@ -177,9 +134,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão
-                atual.
-            </div>
+            <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                 <a class="btn btn-primary" href="login_gerente.php">Sair</a>

@@ -43,7 +43,7 @@
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
-            <a class="d-block small" href="login.php"> Página de Login</a>
+            <a class="d-block small" href="login_gerente.php"> Página de Login</a>
           </div>
         </div>
       </div>

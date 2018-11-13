@@ -35,7 +35,7 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
 
-    <a class="navbar-brand mr-1" href="logado.php">DyOpe Assistant</a>
+    <a class="navbar-brand mr-1" href="gerente_index.php">DyOpe Assistant</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -137,7 +137,7 @@
             <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-primary" href="login.php">Sair</a>
+                <a class="btn btn-primary" href="login_gerente.php">Sair</a>
             </div>
         </div>
     </div>
