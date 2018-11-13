@@ -137,7 +137,7 @@
             <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-primary" href="login.php">Sair</a>
+                <a class="btn btn-primary" href="login_gerente.php">Sair</a>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <?php
-require_once "login.php";
+require_once "login_gerente.php";
 require_once 'db.class.php';
 
 
