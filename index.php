@@ -34,32 +34,16 @@
             <form method="post" action="valida_login.php">
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="email" id="inputEmail" name="Email" class="form-control" placeholder="Email"
-                               required="required" autofocus="autofocus">
-                        <label for="inputEmail">Email</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-label-group">
-                        <input type="password" name="Password" id="inputPassword" class="form-control"
-                               placeholder="Senha" required="required">
-                        <label for="inputPassword">Senha</label>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="checkbox">
-                        <label>
-                            <input type="checkbox" value="remember-me">
-                            Lembrar da senha
-                        </label>
+
                     </div>
                 </div>
-                <input class="btn btn-primary btn-block" type="submit" value="Login">
+                <input class="btn btn-info btn-block" type="submit" value="Login do Gerente">
+                <input class="btn btn-primary btn-block" type="submit" value="Login do Setor">
             </form>
-            <div class="text-center">
-                <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
-                <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
-            </div>
         </div>
     </div>
 </div>
