@@ -99,7 +99,7 @@
                     <div class="card border-info mb-3 lista">
                         <div class="card-header border-info">Operações a fazer</div>
                         <div class="card-body text-secondary">
-                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#" data-toggle="modal" data-target="">
+                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
                                 Costura
                             </a>
                             <a class="btn btn-outline-info list-group-item list-group-item-action " >
