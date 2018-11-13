@@ -99,7 +99,7 @@
                     <div class="card border-info mb-3 lista">
                         <div class="card-header border-info">Operações a fazer</div>
                         <div class="card-body text-secondary">
-                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#" data-toggle="modal" data-target="#logoutModal">
+                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
                                 Costura
                             </a>
                             <a class="btn btn-outline-info list-group-item list-group-item-action " >
@@ -190,8 +190,13 @@
     </div>
 </div>
 
-<! modal:
-
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            ...
+        </div>
+    </div>
+</div>
 
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
