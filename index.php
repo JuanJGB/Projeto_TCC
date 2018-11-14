@@ -31,7 +31,7 @@
     <div class="card card-login mx-auto mt-5">
         <div class="card-header bg-info">Login</div>
         <div class="card-body">
-            <form method="post" action="valida_login.php">
+            <form method="post" >
                 <div class="form-group">
                     <div class="form-label-group">
                     </div>
@@ -41,8 +41,12 @@
 
                     </div>
                 </div>
-                <input class="btn btn-info btn-block" type="submit" value="Login do Gerente">
-                <input class="btn btn-primary btn-block" type="submit" value="Login do Setor">
+                <a href="login_gerente.php" class="btn-block">
+                    <input class="btn btn-info btn-block" href="" type="button" value="Login do Gerente">
+                </a>
+                <a href="login_funcionario.php" class="btn-block">
+                <input class="btn btn-primary btn-block" type="button" value="Login do Setor">
+                </a>
             </form>
         </div>
     </div>

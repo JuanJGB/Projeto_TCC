@@ -32,12 +32,12 @@
 
 <body id="page-top">
 
-<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+<nav class="navbar navbar-expand bg-white static-top">
 
 
     <a class="navbar-brand mr-1" href="gerente_index.php">DyOpe Assistant</a>
 
-    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+    <button class="btn btn-link btn-sm  order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
     </button>
 
@@ -65,10 +65,10 @@
 <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="sidebar navbar-nav">
+    <ul class="sidebar bg-primary navbar-nav">
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle text-light" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
                aria-haspopup="false" aria-expanded="false">
                 <span>Operações</span>
             </a>
@@ -82,7 +82,7 @@
 
             </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item text-light">
             <a class="nav-link" href="controle.php">
                 <span>Controle</span>
             </a>
