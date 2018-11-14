@@ -82,7 +82,7 @@
                 <input class="btn btn-info btn-block" type="submit" value="Cadastrar">
             </form>
             <div class="text-center">
-                <a class="d-block small mt-3" href="login_gerente.php">Página de login</a>
+                <a class="d-block small mt-3" href="index.php">Página de login</a>
                 <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
             </div>
         </div>
