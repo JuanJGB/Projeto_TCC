@@ -23,11 +23,13 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body id="page-top">
 
-<nav class="navbar navbar-expand bg-white static-top">
+<nav class="navbar navbar-expand bg-lightblue static-top">
 
     <a class="navbar-brand mr-1" href="gerente_index.php">DyOpe Assistant</a>
 

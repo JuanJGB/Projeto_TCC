@@ -32,7 +32,7 @@
 
 <body id="page-top">
 
-<nav class="navbar navbar-expand bg-white static-top">
+<nav class="navbar navbar-expand bg-lightblue static-top">
 
 
     <a class="navbar-brand mr-1" href="gerente_index.php">DyOpe Assistant</a>
@@ -84,7 +84,7 @@
             </div>
         </li>
         <li class="nav-item text-light">
-            <a class="nav-link" href="controle.php">
+            <a class="nav-link text-light" href="controle.php">
                 <span>Controle</span>
             </a>
 

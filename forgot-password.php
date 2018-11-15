@@ -20,13 +20,15 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
+      <link rel="stylesheet" href="css/estilo.css">
+
   </head>
 
-  <body class="bg-secondary">
+  <body class="bg-lightblue">
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
-        <div class="card-header bg-info">Redefinir Senha</div>
+        <div class="card-header bg-info text-light">Redefinir Senha</div>
         <div class="card-body">
           <div class="text-center mb-4">
             <h4>Esqueceu sua senha?</h4>

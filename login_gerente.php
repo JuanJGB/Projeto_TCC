@@ -36,7 +36,7 @@ require_once 'db.class.php';
 
 <div class="container">
     <div class="card card-login mx-auto mt-5">
-        <div class="card-header bg-info">Login</div>
+        <div class="card-header bg-info text-light">Login</div>
         <div class="card-body">
             <form method="post" action="valida_login.php">
                 <div class="form-group">

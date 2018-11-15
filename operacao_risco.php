@@ -30,7 +30,7 @@
 <body id="page-top">
 
 
-<nav class="navbar navbar-expand bg-white static-top">
+<nav class="navbar navbar-expand bg-lightblue static-top">
 
 
     <a class="navbar-brand mr-1" href="gerente_index.php">DyOpe Assistant</a>
@@ -66,7 +66,8 @@
     <ul class="sidebar bg-primary navbar-nav">
 
         <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle text-light" href="#" id="pagesDropdown" role="button"
+               data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false">
                 <span>Operações</span>
             </a>
@@ -88,7 +89,6 @@
         <div class="container-fluid">
 
 
-
             <!-- Page Content -->
 
             <h1>Operação Risco:</h1>
@@ -99,15 +99,17 @@
                     <div class="card border-info mb-3 lista">
                         <div class="card-header border-info">Operações a fazer</div>
                         <div class="card-body text-secondary">
-                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
+                            <a class="btn btn-outline-info list-group-item list-group-item-action " href="#"
+                               data-toggle="modal" data-target=".informations">
                                 Costura
                             </a>
-                            <a class="btn btn-outline-info list-group-item list-group-item-action " >
+                            <a class="btn btn-outline-info list-group-item list-group-item-action ">
                                 Beneficiamento
                             </a>
                         </div>
                         <div class="card-footer bg-transparent border-info">
-                            <a href="cadastro_operacoes.php" class="btn btn-info">Cadastrar operação</a>
+                            <a class="btn btn-info" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Cadastrar
+                                operação</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +125,8 @@
 
                         </div>
                         <div class="card-footer bg-transparent border-warning">
-                            <a href="cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar operação</a>
+                            <a class="btn btn-outline-warning" href="#" data-toggle="modal"
+                               data-target=".bd-example-modal-lg">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
@@ -190,24 +193,162 @@
     </div>
 </div>
 
-<!--modal: -->
+<!--Modal Informações: -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade informations" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog modal-lg">
 
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myLargeModalLabel">Informações da operação:</h4>
+                <h4 class="modal-title" id="myLargeModalLabel">Informações da Operações:</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <div class="card-body">
+                    <form method="post" action="operacao_risco.php">
+                        <div class="form-group">
+                            <div class="form-group">
+
+                                <label for="DescricaoOpe">Descrição da operação:</label>
+                                <textarea required="required" class="form-control" rows="2"
+                                          id="DescricaoOpe"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="date" id="datainicio" class="form-control"
+                                                   placeholder="Data Inicio:"
+                                                   required="required">
+                                            <label for="datainicio">Data Inicio:</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="date" id="datalimite" class="form-control"
+                                                   placeholder="Data limite:"
+                                                   required="required">
+                                            <label for="datalimite">Data limite:</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-label-group">
+                                        <input type="text" id="custosOpe" class="form-control fa-credit-card"
+                                               placeholder="Custos"
+                                               required="required">
+                                        <label for="custosOpe">Custos:</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-label-group">
+                                        <input type="number" id="LoteProd" class="form-control"
+                                               placeholder="Lote de Produção"
+                                               required="required">
+                                        <label for="LoteProd">Lote de Produção:</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer col-md-12">
+
+                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Sair</button>
+                            <input class="btn btn-info" type="button" value="Editar">
+                            <input class="btn btn-success" type="submit" value="Salvar">
+
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<!--Modal Cadastro: -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myLargeModalLabel">Cadastro de Operações:</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <form method="post" action="operacao_risco.php">
+                        <div class="form-group">
+                            <div class="form-group">
+
+                                <label for="DescricaoOpe">Descrição da operação:</label>
+                                <textarea required="required" class="form-control" rows="2"
+                                          id="DescricaoOpe"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="date" id="datainicio" class="form-control"
+                                                   placeholder="Data Inicio:"
+                                                   required="required">
+                                            <label for="datainicio">Data Inicio:</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="date" id="datalimite" class="form-control"
+                                                   placeholder="Data limite:"
+                                                   required="required">
+                                            <label for="datalimite">Data limite:</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-label-group">
+                                        <input type="text" id="custosOpe" class="form-control fa-credit-card"
+                                               placeholder="Custos"
+                                               required="required">
+                                        <label for="custosOpe">Custos:</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-label-group">
+                                        <input type="number" id="LoteProd" class="form-control"
+                                               placeholder="Lote de Produção"
+                                               required="required">
+                                        <label for="LoteProd">Lote de Produção:</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer col-md-12">
+                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                            <input class="btn btn-primary" type="submit" value="Cadastrar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>

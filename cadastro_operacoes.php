@@ -26,7 +26,7 @@
 
 <div class="container">
     <div class="card card-register mx-auto mt-5">
-        <div class="card-header bg-info">Cadastro de operação</div>
+        <div class="card-header bg-info text-light">Cadastro de operação</div>
         <div class="card-body">
             <form method="post" action="operacao_risco.php">
                 <div class="form-group">

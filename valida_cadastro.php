@@ -21,7 +21,7 @@ $link = $objDB->conecta_mysql();
 $sql = " insert into gerentes(NOME_GER, EMAIL_GER, RG_GER, CPF_GER ) VALUES ('$nome_ger', '$email_ger', '$rg_ger', '$cpf_ger' ) ";
 
 if (mysqli_query($link, $sql)){
-    echo 'Gerente registrado ';
+    echo 'Gerente registrado com sucesso ';
 }else{
     echo 'Erro ao cadastrar';
 }

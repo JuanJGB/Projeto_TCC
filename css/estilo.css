@@ -19,3 +19,7 @@
     background-image: url("../imagens/operacoes.jpg");
     background-size: cover;
 }
+
+.bg-lightblue{
+    background-color:#8fecff !important;
+}
