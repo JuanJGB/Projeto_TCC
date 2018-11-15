@@ -20,13 +20,15 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
-<body class="bg-secondary">
+<body class="bg-lightblue">
 
 <div class="container">
     <div class="card card-register mx-auto mt-5">
-        <div class="card-header bg-info">Cadastro</div>
+        <div class="card-header bg-info text-light">Cadastro</div>
         <div class="card-body">
             <form method="post" action="valida_cadastro.php">
                 <div class="form-group">

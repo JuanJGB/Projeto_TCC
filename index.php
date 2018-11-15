@@ -21,11 +21,11 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet"> <link href="css/estilo.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-secondary">
+<body class="bg-lightblue">
 
 <div class="container">
     <div class="card card-login mx-auto mt-5">

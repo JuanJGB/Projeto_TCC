@@ -108,7 +108,7 @@
                         </div>
                         <div class="card-footer bg-transparent border-info">
                             <a href="#" data-toggle="modal"
-                               data-target=".bd-example-modal-lg" class="btn btn-info">Cadastrar operação</a>
+                               data-target=".cadastro-operacoes" class="btn btn-info">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="card-footer bg-transparent border-warning">
                             <a href="#" data-toggle="modal"
-                               data-target=".bd-example-modal-lg" class="btn btn-outline-warning">Cadastrar operação</a>
+                               data-target=".cadastro-operacoes" class="btn btn-outline-warning">Cadastrar operação</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
 
 <!--Modal Cadastro: -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade cadastro-operacoes" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-lg">
 

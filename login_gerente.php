@@ -32,7 +32,7 @@ require_once 'db.class.php';
 
 </head>
 
-<body class="bg-secondary">
+<body class="bg-lightblue">
 
 <div class="container">
     <div class="card card-login mx-auto mt-5">

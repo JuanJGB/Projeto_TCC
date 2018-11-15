@@ -21,7 +21,7 @@
     <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet"> <link href="css/estilo.css" rel="stylesheet">
 
   </head>
 
