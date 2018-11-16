@@ -21,33 +21,30 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin.css" rel="stylesheet"> <link href="css/estilo.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
 
 </head>
 
 <body class="bg-lightblue">
 
-<div class="container">
-    <div class="card card-login mx-auto mt-5">
-        <div class="card-header bg-info text-light">Login</div>
-        <div class="card-body">
-            <form method="post" >
-                <div class="form-group">
-                    <div class="form-label-group">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="checkbox">
 
-                    </div>
-                </div>
-                <a href="login_gerente.php" class="btn-block">
-                    <input class="btn btn-info btn-block" href="" type="button" value="Login do Gerente">
-                </a>
-                <a href="login_funcionario.php" class="btn-block">
-                <input class="btn btn-primary btn-block" type="button" value="Login do Setor">
-                </a>
-            </form>
+<div class="container">
+    <h1>DyOpe Assistant</h1>
+    <div class="card card-login mx-auto mt-5">
+        <div class="card-header bg-info text-light">Escolha um login</div>
+        <div class="card-body">
+            <div class="form-group">
+                <form method="post" action="login_gerente.php">
+                    <input class="btn btn-primary btn-block" href="" type="submit" value="Login do Gerente">
+                </form>
+            </div>
+            <div class="form-group">
+                <form action="login_funcionario.php">
+                    <input class="btn btn-success btn-block" type="submit" value="Login do Setor">
+                </form>
+            </div>
+
         </div>
     </div>
 </div>

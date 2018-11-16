@@ -66,7 +66,7 @@
     <ul class="sidebar bg-primary navbar-nav">
 
         <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle text-light" href="#" id="pagesDropdown" role="button" data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false">
                 <span>Operações</span>
             </a>
