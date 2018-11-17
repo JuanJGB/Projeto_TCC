@@ -16,12 +16,10 @@
 }
 
 .fundo{
-    background-image: url("../imagens/operacoes.jpg");
+    background-image: url("../imagens/OPERACOESPRODUCAO.jpg");
     background-size: cover;
-    width: 100%;
-     height: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+
 }
 
 .bg-lightblue{

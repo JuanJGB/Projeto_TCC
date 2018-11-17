@@ -80,7 +80,6 @@
                 <a class="dropdown-item" href="operacao_costura.php">Costura</a>
                 <a class="dropdown-item" href="operacao_beneficiamento.php">Beneficiamento</a>
                 <a class="dropdown-item" href="operacao_acabamento.php">Acabamento</a>
-
             </div>
         </li>
         <li class="nav-item text-light">

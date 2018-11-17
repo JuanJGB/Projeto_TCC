@@ -237,27 +237,63 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="form-row">
-                                <div class="col-md-6">
-                                    <div class="form-label-group">
-                                        <input type="text" id="custosOpe" class="form-control fa-credit-card"
-                                               placeholder="Custos"
-                                               required="required">
-                                        <label for="custosOpe">Custos:</label>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" id="custosOpe" class="form-control fa-credit-card"
+                                                   placeholder="Custos"
+                                                   required="required">
+                                            <label for="custosOpe">Custos:</label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-label-group">
-                                        <input type="number" id="LoteProd" class="form-control"
-                                               placeholder="Lote de Produção"
-                                               required="required">
-                                        <label for="LoteProd">Lote de Produção:</label>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="number" id="LoteProd" class="form-control"
+                                                   placeholder="Lote de Produção"
+                                                   required="required">
+                                            <label for="LoteProd">Lote de Produção:</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="number" id="FuncNesc" class="form-control"
+                                                   placeholder="Funcionários necessários:"
+                                                   required="required">
+                                            <label for="FuncNesc">Funcionários necessários:</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="number" id="QtdPecasFunc" class="form-control"
+                                                   placeholder="Quantidade de peças por funcionário:"
+                                                   required="required">
+                                            <label for="QtdPecasFunc">Quantidade de peças por funcionário:</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="number" id="TempoPeca" class="form-control"
+                                                   placeholder="Tempo necessário por peça:"
+                                                   required="required">
+                                            <label for="TempoPeca">Tempo necessário por peça:</label>
+                                        </div>
+                                    </div>
+                                </div>
 
+
+                            </div>
+
+
+                        </div>
                         <div class="modal-footer col-md-12">
 
                             <button class="btn btn-secondary" type="button" data-dismiss="modal">Sair</button>
@@ -335,6 +371,7 @@
                                         <label for="LoteProd">Lote de Produção:</label>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
 
