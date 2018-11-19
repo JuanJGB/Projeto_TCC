@@ -107,7 +107,7 @@
                         </div>
                         <div class="card-footer bg-transparent border-info">
                             <a href="#" data-toggle="modal"
-                               data-target=".cadastro-operacoes" class="btn btn-info">Cadastrar operação</a>
+                               data-target=".cadastro-operacoes" class="btn btn-info">Cadastrar</a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="card-footer bg-transparent border-warning">
                             <a class="btn btn-outline-warning" href="#" data-toggle="modal"
-                               data-target=".cadastro-operacoes">Cadastrar operação</a>
+                               data-target=".cadastro-operacoes">Cadastrar </a>
                         </div>
                     </div>
                 </div>

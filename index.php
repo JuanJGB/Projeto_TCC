@@ -30,7 +30,6 @@
 
 
 <div class="container">
-    <h1>DyOpe Assistant</h1>
     <div class="card card-login mx-auto mt-5">
         <div class="card-header bg-info text-light">Escolha um login</div>
         <div class="card-body">

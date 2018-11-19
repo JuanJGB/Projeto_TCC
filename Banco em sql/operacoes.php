@@ -194,7 +194,7 @@
 
                         </div>
                         <div class="card-footer bg-transparent border-warning">
-                            <a href="../cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar operação</a>
+                            <a href="../cadastro_operacoes.php" class="btn btn-outline-warning">Cadastrar</a>
                         </div>
                     </div>
                 </div>
