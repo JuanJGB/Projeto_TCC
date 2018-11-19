@@ -3,9 +3,9 @@
 class db
 {
     private $servername = '127.0.0.1';
-    private $database = 'dy_ope_assistant';
+    private $database = 'db_dyopeassistant';
     private $username = 'root';
-    private $password = '';
+    private $password = 'root';
 
     public function conecta_mysql()
     {

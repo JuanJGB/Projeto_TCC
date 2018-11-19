@@ -14,14 +14,18 @@ $senha_ger = $_POST['senhaGer'];
 $rg_ger = $_POST['rg'];
 $cpf_ger = $_POST['cpf'];
 $nome_ger = $_POST['nome'];
+$ID = 3;
 
 $objDB = new db();
 $link = $objDB->conecta_mysql();
 
-$sql = " insert into gerentes(NOME_GER, EMAIL_GER, RG_GER, CPF_GER ) VALUES ('$nome_ger', '$email_ger', '$rg_ger', '$cpf_ger' ) ";
+$sql = "INSERT INTO usuarios (NOME_USU, SENHA_USU, STATUS_SYS, IDUSUARIO) VALUES ( ' $email_ger', '$senha_ger', 'A', '$ID' )";
 
 if (mysqli_query($link, $sql)){
     echo 'Gerente registrado com sucesso ';
+    header("location: login_gerente.php");
 }else{
     echo 'Erro ao cadastrar';
 }
+
+mysqli_close($link);
