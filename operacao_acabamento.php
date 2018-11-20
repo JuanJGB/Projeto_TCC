@@ -84,7 +84,7 @@
     </ul>
 
 
-    <div id="content-wrapper" class="bg-light">
+    <div id="content-wrapper" class="fundo">
 
         <div class="container-fluid">
 

@@ -83,7 +83,7 @@
     </ul>
 
 
-    <div id="content-wrapper">
+    <div id="content-wrapper" class="fundo">
 
         <div class="container-fluid ">
 

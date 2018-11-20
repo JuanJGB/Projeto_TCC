@@ -9,17 +9,17 @@ if ($total_string_cpf != 11 && $cpf != '') {
     echo '<h4>CPF inválido</h4>';
 }
 
-$email_ger = $_POST['emailGer'];
-$senha_ger = $_POST['senhaGer'];
+$email = $_POST['emailGer'];
+$senha = $_POST['senhaGer'];
 $rg_ger = $_POST['rg'];
 $cpf_ger = $_POST['cpf'];
 $nome_ger = $_POST['nome'];
-$ID = 3;
+$ID = 4;
 
 $objDB = new db();
 $link = $objDB->conecta_mysql();
 
-$sql = "INSERT INTO usuarios (NOME_USU, SENHA_USU, STATUS_SYS, IDUSUARIO) VALUES ( ' $email_ger', '$senha_ger', 'A', '$ID' )";
+$sql = "INSERT INTO usuarios (NOME_USU, SENHA_USU, STATUS_SYS, IDUSUARIO) VALUES ( ' $email', '$senha', 'A', '$ID' )";
 
 if (mysqli_query($link, $sql)){
     echo 'Gerente registrado com sucesso ';

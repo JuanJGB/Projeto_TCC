@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
     <title>DyOpe Assistant</title>
 
     <!-- Bootstrap core CSS-->
@@ -23,14 +24,16 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
+    <span class="fas"></span>
 
 </head>
 
 <body class="bg-lightblue">
-<h1 class="">DyOpe Assistant</h1>
+
 
 
 <div class="container">
+    <h1 class="titulo">DyOpe Assistant</h1>
     <div class="card card-login mx-auto mt-5">
         <div class="card-header bg-info text-light">Escolha um login</div>
         <div class="card-body">

@@ -60,7 +60,7 @@ require_once 'db.class.php';
                 <input class="btn btn-info btn-block" type="submit" value="Login">
             </form>
             <div class="text-center">
-                <a class="d-block small mt-3" href="cadastro.php">Registre uma conta</a>
+                <a class="d-block small mt-3" href="cadastro_setor.php">Registre uma conta</a>
                 <a class="d-block small" href="forgot-password.php">Esqueceu a senha?</a>
             </div>
         </div>
