@@ -8,35 +8,14 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- Schema mydb
 -- -----------------------------------------------------
 -- -----------------------------------------------------
--- Schema dyope_assistant
--- -----------------------------------------------------
 
--- -----------------------------------------------------
--- Schema dyope_assistant
--- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `dyope_assistant` DEFAULT CHARACTER SET utf8 ;
--- -----------------------------------------------------
--- Schema db_dyope_assistant
--- -----------------------------------------------------
-
--- -----------------------------------------------------
--- Schema db_dyope_assistant
--- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `db_dyope_assistant` DEFAULT CHARACTER SET utf8 ;
--- -----------------------------------------------------
--- Schema db_dyopeassistant
--- -----------------------------------------------------
-
--- -----------------------------------------------------
--- Schema db_dyopeassistant
--- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `db_dyopeassistant` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
-USE `dyope_assistant` ;
+
 
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`bairros`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`bairros` (
+CREATE TABLE IF NOT EXISTS `db_dyopeassistant`.`bairros` (
   `IDBAIRRO` INT(11) NOT NULL,
   `NOME_BAI` VARCHAR(80) NOT NULL,
   `STATUS_SYS` CHAR(1) NOT NULL,
@@ -44,23 +23,24 @@ CREATE TABLE IF NOT EXISTS `dyope_assistant`.`bairros` (
 ENGINE = MyISAM
 DEFAULT CHARACTER SET = utf8;
 
+use `db_dyopeassistant`;
 
 -- -----------------------------------------------------
--- Table `dyope_assistant`.`cidades`
+-- Table .`cidades`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`cidades` (
-  `IDCIDADE` INT(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `cidades` (
+  `IDCIDADE` INT NOT NULL,
   `NOME_CID` VARCHAR(80) NOT NULL,
   `STATUS_SYS` CHAR(1) NOT NULL,
   PRIMARY KEY (`IDCIDADE`))
-ENGINE = MyISAM
+ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`enderecos`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`enderecos` (
+CREATE TABLE IF NOT EXISTS `enderecos` (
   `IDENDERECO` INT(11) NOT NULL,
   `IDBAIRRO` INT(11) NOT NULL,
   `IDCIDADE` INT(11) NOT NULL,
@@ -75,7 +55,7 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`funcionarios`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`funcionarios` (
+CREATE TABLE IF NOT EXISTS `funcionarios` (
   `IDFUNCIONARIO` INT(11) NOT NULL,
   `NOME_FUN` VARCHAR(40) NOT NULL,
   `CPF_FUN` VARCHAR(11) NOT NULL,
@@ -93,7 +73,7 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`gerentes`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`gerentes` (
+CREATE TABLE IF NOT EXISTS `gerentes` (
   `IDGERENTE` INT(11) NOT NULL,
   `NOME_GER` VARCHAR(40) NOT NULL,
   `EMAIL_GER` VARCHAR(50) NOT NULL,
@@ -115,7 +95,7 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`operacoes`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`operacoes` (
+CREATE TABLE IF NOT EXISTS `operacoes` (
   `IDOPERACAO` INT(11) NOT NULL,
   `DESCRICAO_OPE` VARCHAR(150) NOT NULL,
   `TEMPO_LIMITE_OPE` DATETIME NOT NULL,
@@ -134,7 +114,7 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`tipos_logradouros`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`tipos_logradouros` (
+CREATE TABLE IF NOT EXISTS `tipos_logradouros` (
   `IDTIPO_LOG` INT(11) NOT NULL,
   `NOME_LOG` VARCHAR(100) NOT NULL,
   `TIPO_LOG` VARCHAR(35) NOT NULL,
@@ -147,7 +127,7 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dyope_assistant`.`usuarios`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dyope_assistant`.`usuarios` (
+CREATE TABLE IF NOT EXISTS `usuarios` (
   `IDUSUARIO` INT(11) NOT NULL,
   `NOME_USU` VARCHAR(60) NOT NULL,
   `SENHA_USU` VARCHAR(60) NOT NULL,
@@ -158,12 +138,11 @@ CREATE TABLE IF NOT EXISTS `dyope_assistant`.`usuarios` (
 ENGINE = MyISAM
 DEFAULT CHARACTER SET = utf8;
 
-USE `db_dyope_assistant` ;
 
 -- -----------------------------------------------------
 -- Table `db_dyope_assistant`.`bairros`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `db_dyope_assistant`.`bairros` (
+CREATE TABLE IF NOT EXISTS `bairros` (
   `IDBAIRRO` INT(11) NOT NULL,
   `NOME_BAI` VARCHAR(80) NOT NULL,
   `STATUS_SYS` CHAR(1) NOT NULL,

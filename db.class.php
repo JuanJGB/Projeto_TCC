@@ -5,7 +5,7 @@ class db
     private $servername = '127.0.0.1';
     private $database = 'db_dyopeassistant';
     private $username = 'root';
-    private $password = 'root';
+    private $password = 'admin';
 
     public function conecta_mysql()
     {

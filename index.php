@@ -27,6 +27,7 @@
 </head>
 
 <body class="bg-lightblue">
+<h1 class="">DyOpe Assistant</h1>
 
 
 <div class="container">
