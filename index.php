@@ -24,15 +24,14 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
-    <span class="fas"></span>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/iconeOpe.png"/>
 
 </head>
 
 <body class="bg-lightblue">
 
-
-
 <div class="container">
+
     <h1 class="titulo">DyOpe Assistant</h1>
     <div class="card card-login mx-auto mt-5">
         <div class="card-header bg-info text-light">Escolha um login</div>
